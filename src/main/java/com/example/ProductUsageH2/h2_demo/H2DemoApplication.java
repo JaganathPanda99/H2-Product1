@@ -19,17 +19,17 @@ public class H2DemoApplication {
 
 	}
 		 
-        @Bean
-		CommandLineRunner commandLineRunner(ProductInterface productInterface ) {
-
-		return args -> {
-			productInterface.save(new Product1(null, "Apple IPodsPro", "iPods", "Apple"));
-			productInterface.save(new Product1(null, "Redmi Note10 Pro", "NotePros", "Xiomie"));
-		};
-
-
-
-		}
+//        @Bean
+//		CommandLineRunner commandLineRunner(ProductInterface productInterface ) {
+//
+//		return args -> {
+////			productInterface.save(new Product1(null, "Apple IPodsPro", "iPods", "Apple"));
+////			productInterface.save(new Product1(null, "Redmi Note10 Pro", "NotePros", "Xiomie"));
+//		};
+//
+//
+//
+//		}
 
 	}
 

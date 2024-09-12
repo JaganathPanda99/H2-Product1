@@ -6,5 +6,5 @@ create table Product1(
 );
 
 
--- insert into Product1(title, Category, Brand )  values ( 'NotePro', 'SmartPhone', 'Redmi' );
+insert into Product1(title, Category, Brand )  values ( 'NotePro', 'SmartPhone', 'Redmi' );
 
